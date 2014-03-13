@@ -1,0 +1,37 @@
+{
+  "name": "molecule",
+  "version": "0.0.0",
+  "description": "A realtime dashboard that keeps track of everything from heartbeats to integration tests via simple restful interfaces.",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "jasmine-node ./spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kingles/molecule.git"
+  },
+  "keywords": [
+    "dashboard",
+    "devops",
+    "heartbeat",
+    "CI",
+    "CD",
+    "continuous",
+    "integration",
+    "continuous",
+    "development"
+  ],
+  "author": "Jeromy Maligie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kingles/molecule/issues"
+  },
+  "homepage": "https://github.com/Kingles/molecule",
+  "devDependencies": {
+    "bower": "~1.3.1",
+    "mocha": "latest"
+  },
+  "dependencies": {
+  	"skinnyjs": "git+https://github.com/erulabs/skinnyjs.git"
+  }
+}

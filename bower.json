@@ -1,0 +1,22 @@
+{
+  "name": "molecule",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Kingles/molecule",
+  "authors": [
+    "Jeromy Maligie <jmaligie@gmail.com>"
+  ],
+  "description": "A realtime dashboard that keeps track of everything from heartbeats to integration tests via simple restful interfaces.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "three.js": "*",
+    "angular": "~1.2.14"
+  }
+}
